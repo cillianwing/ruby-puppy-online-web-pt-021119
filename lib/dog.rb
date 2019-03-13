@@ -17,6 +17,7 @@ class Dog
   
   def self.clear_all 
     @@all.slice(0, @@all.length)
+    @@all
   end
   
 end
